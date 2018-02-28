@@ -1,19 +1,27 @@
-# ![nf-core](nf-core-logo.png)
+# ![nf-core](nf-core-logos/nf-core-logo.png)
 # https://nf-core.github.io
 
-Countains original logo and icon in `ai` format, exported to `png` and also converted to `svg`.
+## [nf-core logos](nf-core-logos)
+- Countains original logo and icon in `ai` format, exported to `png` and also converted to `svg`
 
-The font used is [Maven Pro Bold](https://fonts.google.com/specimen/Maven+Pro).
+## [make_logo](make_logo)
+- Countains a template logo with `GenericName` for a new pipeline, and a minimalist bash script to generate a new logo
 
-A logo with `GenericName` is given as an example for a new logo for a new pipeline.
-
-A minimalist bash script can generate a new logo using Inkscape (`svg` and `png`) given a new name as argument.
+### Requirements
+- Inkscape
+- [Maven Pro Bold](https://fonts.google.com/specimen/Maven+Pro) font.
 
 Example:
 ```
+cd make_logo
 ./make_logo.sh NewPipeline
 ```
 
 Result:
+```
+NewPipeline_logo.png
+NewPipeline_logo.svg
 
-![NewPipeline](NewPipeline_logo.png)
+```
+
+![NewPipeline](make_logo/NewPipeline_logo.png)

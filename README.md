@@ -9,9 +9,11 @@ A logo with `GenericName` is given as an example for a new logo for a new pipeli
 
 A minimalist bash script can generate a new logo using Inkscape (`svg` and `png`) given a new name as argument.
 
+Example:
 ```
 ./make_logo.sh NewPipeline
 ```
 
 Result:
+
 ![NewPipeline](NewPipeline_logo.png)

@@ -1,5 +1,5 @@
 # ![nf-core](nf-core-logos/nf-core-logo.png)
-# https://nf-core.github.io
+# http://nf-co.re
 
 ## [nf-core logos](nf-core-logos)
 - Countains original logo and icon in `ai` format, exported to `png` and also converted to `svg`

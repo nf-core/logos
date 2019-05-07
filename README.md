@@ -1,7 +1,5 @@
 # ![nf-core](nf-core-logos/nf-core-logo.png)
 
-## [https://nf-co.re](https://nf-co.re)
-
 ## [nf-core logos](nf-core-logos)
 
 - Contains original logo and icon in `ai` format, exported to `png` and also converted to `svg`

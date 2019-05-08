@@ -58,13 +58,13 @@ cd logos/make_logo
 ## Correct logo
 
 <p align="center">
-<img src="example-logos/NewPipeline_logo.png" width="600">
+<img src="example-logos/NewPipeline_logo.png" width="500">
 </p>
 
 ## Incorrect logo
 
 <p align="center">
-<img src="example-logos/NewPipeline_logo_incorrect.png" width="600">
+<img src="example-logos/NewPipeline_logo_incorrect.png" width="500">
 </p>
 
 ## Help

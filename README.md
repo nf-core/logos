@@ -33,7 +33,7 @@ singularity pull logo.sif docker://nfcore/logos
 singularity exec logo.sif /make_logo.sh NewPipeline
 ```
 
-### Local Execution
+### Create logo locally
 
 >>NB: This assumes you have successfully installed the fonts and inkscape properly on your machine. 
 

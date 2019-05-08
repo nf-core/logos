@@ -48,7 +48,7 @@ cd logos/make_logo
 ./make_logo.sh NewPipeline
 ```
 
-#### Result:
+#### Output:
 
 ```bash
 NewPipeline_logo.png

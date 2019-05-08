@@ -1,14 +1,17 @@
-# ![nf-core](nf-core-logos/nf-core-logo.png)
+<img src="docs/images/nf-core-logo.png" width="400">
 
-## Repository contents
+# [nf-core/logos](https://github.com/nf-core/logos)
 
-### [nf-core-logos/](nf-core-logos)
+A repository for hosting files containing the official `nf-core` logo, and instructions on how to create an `nf-core` logo for your pipeline.
 
-- Contains original logo and icon in `ai` format, exported to `png` and also converted to `svg`
-
-### [make_logo/](make_logo)
-
-- Contains a template logo with `GenericName` for a new pipeline, and a minimalist bash script to generate a new logo
+## Table of contents
+* [Create logo using Docker](#create-logo-using-docker)
+* [Create logo using Singularity](#create-logo-using-singularity)
+* [Create logo locally](#create-logo-locally)
+* [Correct logo](#correct-logo)
+* [Incorrect logo](#incorrect-logo)
+* [Repository contents](#repository-contents)
+* [Help](#help)
 
 ## Create logo using Docker
 
@@ -33,7 +36,7 @@ singularity exec logo.sif /make_logo.sh NewPipeline
 
 ## Create logo locally
 
-### Requirements
+#### Requirements
 
 The bash script needs to have two dependencies installed in order to be able to correctly generate the logo for you:
 
@@ -55,4 +58,24 @@ NewPipeline_logo.png
 NewPipeline_logo.svg
 ```
 
-![NewPipeline](make_logo/NewPipeline_logo.png)
+## Correct logo
+
+<img src="docs/images/NewPipeline_logo.png" width="400">
+
+## Incorrect logo
+
+<img src="docs/images/NewPipeline_logo.png" width="400">
+
+## Repository contents
+
+### [nf-core-logos/](nf-core-logos)
+
+- Contains original logo and icon in `ai` format, exported to `png` and also converted to `svg`
+
+### [make_logo/](make_logo)
+
+- Contains a template logo with `GenericName` for a new pipeline, and a minimalist bash script to generate a new logo
+
+## Help
+
+If you have any questions or issues please send us a message on [Slack](https://nf-core-invite.herokuapp.com/).

@@ -10,11 +10,6 @@
 
 - Contains a template logo with `GenericName` for a new pipeline, and a minimalist bash script to generate a new logo
 
-### Requirements
-
-- Inkscape
-- [Maven Pro Bold](https://fonts.google.com/specimen/Maven+Pro) font.
-
 ### Create logo using Docker
 
 We provide a Docker Image on [DockerHub](https://cloud.docker.com/u/nfcore/repository/docker/nfcore/logos) that you may use to create logos for your pipeline easily.
@@ -38,7 +33,12 @@ singularity exec logo.sif /make_logo.sh NewPipeline
 
 ### Create logo locally
 
->>NB: This assumes you have successfully installed the fonts and inkscape properly on your machine.
+### Requirements
+
+The bash script needs to have two dependencies installed in order to be able to correctly generate the logo for you:
+
+- [Inkscape](https://inkscape.org/)
+- [Maven Pro Bold Fonts](https://fonts.google.com/specimen/Maven+Pro)
 
 #### Example
 

@@ -1,10 +1,12 @@
 # ![nf-core](nf-core-logos/nf-core-logo.png)
 
-## [nf-core logos](nf-core-logos)
+## Repository contents
+
+### [nf-core logos](nf-core-logos)
 
 - Contains original logo and icon in `ai` format, exported to `png` and also converted to `svg`
 
-## [make_logo](make_logo)
+### [make_logo](make_logo)
 
 - Contains a template logo with `GenericName` for a new pipeline, and a minimalist bash script to generate a new logo
 
@@ -22,6 +24,7 @@ docker run -v /path/on/host:/data -it nfcore/logos bash
 /make_logo.sh NewPipeline
 mv NewPipeline* /data
 ```
+
 You will then find your logos in PNG and SVG format in `/path/on/host/`.
 
 ### Create logo using Singularity
@@ -35,15 +38,16 @@ singularity exec logo.sif /make_logo.sh NewPipeline
 
 ### Create logo locally
 
->>NB: This assumes you have successfully installed the fonts and inkscape properly on your machine. 
+>>NB: This assumes you have successfully installed the fonts and inkscape properly on your machine.
 
-Example:
+#### Example
 
 ```bash
 cd make_logo
 ./make_logo.sh NewPipeline
 ```
-Result:
+
+#### Result:
 
 ```bash
 NewPipeline_logo.png

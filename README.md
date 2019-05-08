@@ -10,7 +10,7 @@
 
 - Contains a template logo with `GenericName` for a new pipeline, and a minimalist bash script to generate a new logo
 
-### Create logo using Docker
+## Create logo using Docker
 
 We provide a Docker Image on [DockerHub](https://cloud.docker.com/u/nfcore/repository/docker/nfcore/logos) that you may use to create logos for your pipeline easily.
 
@@ -22,7 +22,7 @@ mv NewPipeline* /data
 
 You will then find your logos in PNG and SVG format in `/path/on/host/`.
 
-### Create logo using Singularity
+## Create logo using Singularity
 
 You can also pull the Image from DockerHub using Singularity and do the same thing:
 
@@ -31,7 +31,7 @@ singularity pull logo.sif docker://nfcore/logos
 singularity exec logo.sif /make_logo.sh NewPipeline
 ```
 
-### Create logo locally
+## Create logo locally
 
 ### Requirements
 

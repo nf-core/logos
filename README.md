@@ -17,8 +17,8 @@ A repository for hosting files containing the official `nf-core` logo along with
 ## Repository contents
 
 * [nf-core-logos/](nf-core-logos) - contains official `nf-core` logo and icon in `ai`, `png` and `svg` formats.
-* [make_logo/](make_logo) - contains a template logo with `GenericName` for a new pipeline, and a minimalist bash script to generate a new logo for your pipeline.
 * [example-logos/](example-logos) - contains example pipeline logos in correct and incorrect rendering.
+* [make_logo/](make_logo) - contains a template logo with `GenericName` for a new pipeline, and a minimalist bash script to generate a new logo for your pipeline.
 
 ## Create a pipeline logo
 

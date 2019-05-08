@@ -24,7 +24,7 @@ mv NewPipeline* /data
 ```
 You will find your logos in PNG and SVG format in `/path/on/host` then.
 
-### Singularity Image
+### Create logo using Singularity
 
 You can also pull the Image from DockerHub using Singularity and do the same thing:
 

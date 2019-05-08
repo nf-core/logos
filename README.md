@@ -22,7 +22,7 @@ docker run -v /path/on/host:/data -it nfcore/logos bash
 /make_logo.sh NewPipeline
 mv NewPipeline* /data
 ```
-You will find your logos in PNG and SVG format in `/path/on/host` then.
+You will then find your logos in PNG and SVG format in `/path/on/host/`.
 
 ### Create logo using Singularity
 

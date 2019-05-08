@@ -2,7 +2,7 @@
 
 # [nf-core/logos](https://github.com/nf-core/logos)
 
-A repository for hosting files containing the official `nf-core` logo, and instructions on how to create an `nf-core` logo for your pipeline.
+A repository for hosting files containing the official `nf-core` logo along with instructions on how to create an `nf-core` logo for your pipeline.
 
 ## Table of contents
 * [Repository contents](#repository-contents)
@@ -16,8 +16,9 @@ A repository for hosting files containing the official `nf-core` logo, and instr
 
 ## Repository contents
 
-* [nf-core-logos/](nf-core-logos) - contains original logo and icon in `ai`, `png` and `svg` formats
-* [make_logo/](make_logo) - contains a template logo with `GenericName` for a new pipeline, and a minimalist bash script to generate a new logo for your pipeline
+* [nf-core-logos/](nf-core-logos) - contains official `nf-core` logo and icon in `ai`, `png` and `svg` formats.
+* [make_logo/](make_logo) - contains a template logo with `GenericName` for a new pipeline, and a minimalist bash script to generate a new logo for your pipeline.
+* [example-logos/](example-logos) - contains example pipeline logos in correct and incorrect format.
 
 ## Create a pipeline logo
 
@@ -46,9 +47,7 @@ singularity exec logo.sif /make_logo.sh NewPipeline
 
 ### Locally
 
-You can also run the bash script provided in this repository to generate the logo, however, you will need to install two dependencies beforehand:
-* [Inkscape](https://inkscape.org/)
-* [Maven Pro Bold Fonts](https://fonts.google.com/specimen/Maven+Pro)
+You can also run the bash script provided in this repository to generate the logo, however, you will need to install [Inkscape](https://inkscape.org/) and [Maven Pro Bold Fonts](https://fonts.google.com/specimen/Maven+Pro) beforehand.
 
 ```bash
 git clone https://github.com/nf-core/logos.git
@@ -58,11 +57,11 @@ cd logos/make_logo
 
 ## Correct logo
 
-<img src="docs/images/NewPipeline_logo.png" width="400">
+<img src="example-logos/NewPipeline_logo.png" width="400">
 
 ## Incorrect logo
 
-<img src="docs/images/NewPipeline_logo.png" width="400">
+<img src="example-logos/NewPipeline_logo_incorrect.png" width="400">
 
 ## Help
 

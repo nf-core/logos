@@ -6,7 +6,7 @@
 
 - Contains original logo and icon in `ai` format, exported to `png` and also converted to `svg`
 
-### [make_logo](make_logo)
+### [make_logo/](make_logo)
 
 - Contains a template logo with `GenericName` for a new pipeline, and a minimalist bash script to generate a new logo
 

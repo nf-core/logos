@@ -2,7 +2,7 @@
 
 ## Repository contents
 
-### [nf-core logos](nf-core-logos)
+### [nf-core-logos/](nf-core-logos)
 
 - Contains original logo and icon in `ai` format, exported to `png` and also converted to `svg`
 

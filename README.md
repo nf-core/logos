@@ -43,7 +43,8 @@ The bash script needs to have two dependencies installed in order to be able to 
 #### Example
 
 ```bash
-cd make_logo
+git clone https://github.com/nf-core/logos.git
+cd logos/make_logo
 ./make_logo.sh NewPipeline
 ```
 

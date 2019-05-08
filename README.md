@@ -13,7 +13,7 @@
 - Inkscape
 - [Maven Pro Bold](https://fonts.google.com/specimen/Maven+Pro) font.
 
-### Docker Image
+### Create logo using Docker
 
 We provide a Docker Image on [DockerHub](https://cloud.docker.com/u/nfcore/repository/docker/nfcore/logos) that you may use to create logos for your pipeline easily.
 

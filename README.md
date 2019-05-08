@@ -18,7 +18,7 @@ A repository for hosting files containing the official `nf-core` logo along with
 
 * [nf-core-logos/](nf-core-logos) - contains official `nf-core` logo and icon in `ai`, `png` and `svg` formats.
 * [make_logo/](make_logo) - contains a template logo with `GenericName` for a new pipeline, and a minimalist bash script to generate a new logo for your pipeline.
-* [example-logos/](example-logos) - contains example pipeline logos in correct and incorrect format.
+* [example-logos/](example-logos) - contains example pipeline logos in correct and incorrect rendering.
 
 ## Create a pipeline logo
 
@@ -26,7 +26,7 @@ There are various ways you can create a logo for your pipeline. Each of these me
 
 ### Docker
 
-We provide a Docker Image on [DockerHub](https://cloud.docker.com/u/nfcore/repository/docker/nfcore/logos) that you may use to create logos for your pipeline easily.
+We provide a Docker Image on [DockerHub](https://cloud.docker.com/u/nfcore/repository/docker/nfcore/logos) that you may use to create logos for your pipeline easily:
 
 ```bash
 docker run -v /path/on/host:/data -it nfcore/logos bash
@@ -34,11 +34,11 @@ docker run -v /path/on/host:/data -it nfcore/logos bash
 mv NewPipeline* /data
 ```
 
-You will then find your logos in PNG and SVG format in `/path/on/host/`.
+You will find your logos in `png` and `svg` format in `/path/on/host/`.
 
 ### Singularity
 
-You can also pull the Docker image from DockerHub using Singularity and do the same thing:
+You can also pull the Docker image from DockerHub using Singularity to acheive the same outcome:
 
 ```bash
 singularity pull logo.sif docker://nfcore/logos
@@ -47,7 +47,7 @@ singularity exec logo.sif /make_logo.sh NewPipeline
 
 ### Locally
 
-You can also run the bash script provided in this repository to generate the logo, however, you will need to install [Inkscape](https://inkscape.org/) and [Maven Pro Bold Fonts](https://fonts.google.com/specimen/Maven+Pro) beforehand.
+You can also run the bash script provided in this repository to generate the logo, however, you will need to install [Inkscape](https://inkscape.org/) and [Maven Pro Bold Fonts](https://fonts.google.com/specimen/Maven+Pro) beforehand:
 
 ```bash
 git clone https://github.com/nf-core/logos.git
@@ -57,11 +57,15 @@ cd logos/make_logo
 
 ## Correct logo
 
-<img src="example-logos/NewPipeline_logo.png" width="400">
+<p align="center">
+<img src="example-logos/NewPipeline_logo.png" width="600">
+</p>
 
 ## Incorrect logo
 
-<img src="example-logos/NewPipeline_logo_incorrect.png" width="400">
+<p align="center">
+<img src="example-logos/NewPipeline_logo_incorrect.png" width="600">
+</p>
 
 ## Help
 

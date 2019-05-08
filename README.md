@@ -47,7 +47,7 @@ singularity exec logo.sif /make_logo.sh NewPipeline
 
 ### Locally
 
-You can also run the bash script provided in this repository to generate the logo, however, you will need to install [Inkscape](https://inkscape.org/) beforehand. You will also need to download [Maven Pro Bold Fonts](https://fonts.google.com/specimen/Maven+Pro) beforehand. If you are running the script in a Linux environment you should be able to do this with the following commands:
+You can also run the bash script provided in this repository to generate the logo, however, you will need to install [Inkscape](https://inkscape.org/) beforehand. You will also need to download [Maven Pro Bold Fonts](https://fonts.google.com/specimen/Maven+Pro) and make them available to your system e.g. if you are running the script in a Linux environment you should be able to do this with the following commands:
 
 ```bash
 mkdir -p ~/.fonts/

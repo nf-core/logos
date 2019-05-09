@@ -29,9 +29,7 @@ There are various ways you can create a logo for your pipeline. Each of these me
 We provide a Docker Image on [DockerHub](https://cloud.docker.com/u/nfcore/repository/docker/nfcore/logos) that you may use to create logos for your pipeline easily:
 
 ```bash
-docker run -v /path/on/host:/data -it nfcore/logos bash
-/make_logo.sh NewPipeline
-mv NewPipeline* /data
+docker run -v `pwd`:`pwd` -w `pwd` nfcore/logos NewPipeline
 ```
 
 You will find your logos in `png` and `svg` format in `/path/on/host/`.

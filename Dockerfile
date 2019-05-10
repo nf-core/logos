@@ -18,4 +18,3 @@ wget 'https://raw.githubusercontent.com/google/fonts/master/ofl/mavenpro/static/
 
 # Set up entrypoint and cmd for easy docker usage
 ENTRYPOINT [ "/make_logo.sh" ]
-CMD [ "." ]

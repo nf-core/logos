@@ -1,46 +1,62 @@
-# ![nf-core](nf-core-logos/nf-core-logo.png)
+<img src="nf-core-logos/nf-core-logo.png" width="400">
+
+# [nf-core/logos](https://github.com/nf-core/logos)
+
+A repository for hosting files containing the official `nf-core` logo along with instructions on how to create an `nf-core` logo for your pipeline.
+
+## Table of contents
+* [Repository contents](#repository-contents)
+* [Create a pipeline logo](#create-a-pipeline-logo)
+  * [Docker](#docker)
+  * [Singularity](#singularity)
+  * [Locally](#locally)
+* [Correct logo](#correct-logo)
+* [Incorrect logo](#incorrect-logo)
+* [Help](#help)
 
 ## Repository contents
 
-### [nf-core-logos/](nf-core-logos)
+* [nf-core-logos/](nf-core-logos) - contains official `nf-core` logo and icon in `ai`, `png` and `svg` formats.
+* [example-logos/](example-logos) - contains example pipeline logos in correct and incorrect rendering.
+* [make_logo/](make_logo) - contains a template logo with `GenericName` for a new pipeline, and a minimalist bash script to generate a new logo for your pipeline.
 
-- Contains original logo and icon in `ai` format, exported to `png` and also converted to `svg`
+## Create a pipeline logo
 
-### [make_logo/](make_logo)
+There are various ways you can create a logo for your pipeline. Each of these methods will generate the logo in `png` and `svg` formats e.g. `NewPipeline_logo.png` and `NewPipeline_logo.svg`
 
-- Contains a template logo with `GenericName` for a new pipeline, and a minimalist bash script to generate a new logo
+### Docker
 
-## Create logo using Docker
-
-We provide a Docker Image on [DockerHub](https://cloud.docker.com/u/nfcore/repository/docker/nfcore/logos) that you may use to create logos for your pipeline easily.
+We provide a Docker Image on [DockerHub](https://cloud.docker.com/u/nfcore/repository/docker/nfcore/logos) that you may use to create logos for your pipeline easily:
 
 ```bash
-docker run -v /path/on/host:/data -it nfcore/logos bash
-/make_logo.sh NewPipeline
-mv NewPipeline* /data
+docker run -v `pwd`:`pwd` -w `pwd` nfcore/logos NewPipeline
 ```
 
-You will then find your logos in PNG and SVG format in `/path/on/host/`.
+You will find your logos in `png` and `svg` format in `/path/on/host/`.
 
-## Create logo using Singularity
+### Singularity
 
-You can also pull the Image from DockerHub using Singularity and do the same thing:
+You can also pull the Docker image from DockerHub using Singularity to acheive the same outcome:
 
 ```bash
 singularity pull logo.sif docker://nfcore/logos
 singularity exec logo.sif /make_logo.sh NewPipeline
 ```
 
-## Create logo locally
+### Locally
 
-### Requirements
+You can also run the bash script provided in this repository to generate the logo, however, you will need to install [Inkscape](https://inkscape.org/) beforehand. You will also need to download [Maven Pro Bold Fonts](https://fonts.google.com/specimen/Maven+Pro) and make them available to your system e.g. if you are running the script in a Linux environment you should be able to do this with the following commands:
 
-The bash script needs to have two dependencies installed in order to be able to correctly generate the logo for you:
+```bash
+mkdir -p ~/.fonts/
+cd ~/.fonts/
+wget 'https://raw.githubusercontent.com/google/fonts/master/ofl/mavenpro/static/MavenPro-Black.ttf'
+wget 'https://raw.githubusercontent.com/google/fonts/master/ofl/mavenpro/static/MavenPro-Bold.ttf'
+wget 'https://raw.githubusercontent.com/google/fonts/master/ofl/mavenpro/static/MavenPro-Medium.ttf'
+wget 'https://raw.githubusercontent.com/google/fonts/master/ofl/mavenpro/static/MavenPro-Regular.ttf'
+```
 
-- [Inkscape](https://inkscape.org/)
-- [Maven Pro Bold Fonts](https://fonts.google.com/specimen/Maven+Pro)
-
-#### Example
+Thereafter, you can download this repo using `git` and generate the logo:
 
 ```bash
 git clone https://github.com/nf-core/logos.git
@@ -48,11 +64,18 @@ cd logos/make_logo
 ./make_logo.sh NewPipeline
 ```
 
-#### Output:
+## Correct logo
 
-```bash
-NewPipeline_logo.png
-NewPipeline_logo.svg
-```
+<p align="center">
+<img src="example-logos/NewPipeline_logo.png" width="500">
+</p>
 
-![NewPipeline](make_logo/NewPipeline_logo.png)
+## Incorrect logo
+
+<p align="center">
+<img src="example-logos/NewPipeline_logo_incorrect.png" width="500">
+</p>
+
+## Help
+
+If you have any questions or issues please send us a message on [Slack](https://nf-core-invite.herokuapp.com/).

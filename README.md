@@ -1,6 +1,4 @@
-<img src="nf-core-logos/nf-core-logo.png" width="400">
-
-# [nf-core/logos](https://github.com/nf-core/logos)
+# ![nf-core/logos](nf-core-logos/nfcore-logos_logo.png)
 
 A repository for hosting files containing the official `nf-core` logo along with instructions on how to create an `nf-core` logo for your pipeline.
 

@@ -76,4 +76,4 @@ cd logos/make_logo
 
 ## Help
 
-If you have any questions or issues please send us a message on [Slack](https://nf-core-invite.herokuapp.com/).
+If you have any questions or issues please send us a message on [Slack](https://nf-co.re/join/slack).

@@ -1,13 +1,10 @@
 # ![nf-core/logos](nf-core-logos/nfcore-logos_logo.png)
 
-A repository for hosting files containing the official `nf-core` logo along with instructions on how to create an `nf-core` logo for your pipeline.
+A repository for hosting files containing the official `nf-core` logo along with instructions on how to download an `nf-core` logo for your pipeline.
 
 ## Table of contents
 * [Repository contents](#repository-contents)
-* [Create a pipeline logo](#create-a-pipeline-logo)
-  * [Docker](#docker)
-  * [Singularity](#singularity)
-  * [Locally](#locally)
+* [Download a pipeline logo](#create-a-pipeline-logo)
 * [Correct logo](#correct-logo)
 * [Incorrect logo](#incorrect-logo)
 * [Help](#help)
@@ -16,51 +13,20 @@ A repository for hosting files containing the official `nf-core` logo along with
 
 * [nf-core-logos/](nf-core-logos) - contains official `nf-core` logo and icon in `ai`, `png` and `svg` formats.
 * [example-logos/](example-logos) - contains example pipeline logos in correct and incorrect rendering.
-* [make_logo/](make_logo) - contains a template logo with `GenericName` for a new pipeline, and a minimalist bash script to generate a new logo for your pipeline.
 
-## Create a pipeline logo
+## Download a pipeline logo
 
-There are various ways you can create a logo for your pipeline. Each of these methods will generate the logo in `png` and `svg` formats e.g. `NewPipeline_logo.png` and `NewPipeline_logo.svg`
+From `nf-core/tools v1.7` the pipeline logo in `.png` format will be automatically downloaded and added to the appropriate directories when you run the [`nf-core create`](https://github.com/nf-core/tools#creating-a-new-workflow) command!
 
-### Docker
-
-We provide a Docker Image on [DockerHub](https://cloud.docker.com/u/nfcore/repository/docker/nfcore/logos) that you may use to create logos for your pipeline easily:
+However, if you would like to download a logo for any other reason you can simply use a command like the one below:
 
 ```bash
-docker run -v `pwd`:`pwd` -w `pwd` nfcore/logos NewPipeline
+curl https://nf-co.re/logo/pipelinename --output pipelinename.png
 ```
 
-You will find your logos in `png` and `svg` format in `/path/on/host/`.
+Also, you can append the link with URL flags: `?s` and `?w`. The former scales the image to be 400px wide, which is a nice size for including the logo in the pipeline completion email. The latter lets you specify any width you want, e.g. `?w=800` will give you a logo that's `800px` wide. The height of the image is automatically adjusted relative to the width.
 
-### Singularity
-
-You can also pull the Docker image from DockerHub using Singularity to acheive the same outcome:
-
-```bash
-singularity pull logo.sif docker://nfcore/logos
-singularity exec logo.sif /make_logo.sh NewPipeline
-```
-
-### Locally
-
-You can also run the bash script provided in this repository to generate the logo, however, you will need to install [Inkscape](https://inkscape.org/) beforehand. You will also need to download [Maven Pro Bold Fonts](https://fonts.google.com/specimen/Maven+Pro) and make them available to your system e.g. if you are running the script in a Linux environment you should be able to do this with the following commands:
-
-```bash
-mkdir -p ~/.fonts/
-cd ~/.fonts/
-wget 'https://raw.githubusercontent.com/google/fonts/master/ofl/mavenpro/static/MavenPro-Black.ttf'
-wget 'https://raw.githubusercontent.com/google/fonts/master/ofl/mavenpro/static/MavenPro-Bold.ttf'
-wget 'https://raw.githubusercontent.com/google/fonts/master/ofl/mavenpro/static/MavenPro-Medium.ttf'
-wget 'https://raw.githubusercontent.com/google/fonts/master/ofl/mavenpro/static/MavenPro-Regular.ttf'
-```
-
-Thereafter, you can download this repo using `git` and generate the logo:
-
-```bash
-git clone https://github.com/nf-core/logos.git
-cd logos/make_logo
-./make_logo.sh NewPipeline
-```
+Only one resize flag can be given at a time; `?w` takes precedence.
 
 ## Correct logo
 

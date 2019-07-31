@@ -24,9 +24,9 @@ However, if you would like to download a logo for any other reason you can simpl
 curl https://nf-co.re/logo/pipelinename --output pipelinename.png
 ```
 
-Also, you can append the link with URL flags: `?s` and `?w`. The former scales the image to be 400px wide, which is nice size for adding the logo in the completion email. The second lets you specify any width you want, e.g. `?w=800` will give you a logo that's 800px wide. The height of the image is automatically adjusted relative to the width.
+Also, you can append the link with URL flags: `?s` and `?w`. The former scales the image to be 400px wide, which is a nice size for including the logo in the pipeline completion email. The latter lets you specify any width you want, e.g. `?w=800` will give you a logo that's `800px` wide. The height of the image is automatically adjusted relative to the width.
 
-Only one can resize flag can be given at a time; `?w` takes precedence.
+Only one resize flag can be given at a time; `?w` takes precedence.
 
 ## Correct logo
 

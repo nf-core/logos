@@ -1,16 +1,6 @@
 # ![nf-core/logos](nf-core-logos/nfcore-logos_logo.png)
 
-A repository for hosting files containing the official `nf-core` logo along with instructions on how to download an `nf-core` logo for your pipeline.
-
-## Table of contents
-* [Repository contents](#repository-contents)
-* [Download a pipeline logo](#download-a-pipeline-logo)
-* [Help](#help)
-
-## Repository contents
-
-* [nf-core-logos/](nf-core-logos) - contains official `nf-core` logo and icon in `ai`, `png` and `svg` formats.
-* [example-logos/](example-logos) - contains example pipeline logos in correct and incorrect rendering.
+A repository for hosting files containing the official [`nf-core` logos and icons](nf-core-logos) in `ai`, `png` and `svg` formats, along with instructions on how to download an `nf-core` logo for your pipeline.
 
 ## Download a pipeline logo
 

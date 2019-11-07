@@ -20,6 +20,21 @@ Only one resize flag can be given at a time; `?w` takes precedence.
 <img src="nf-core-logos/nfcore-pipelinename_logo.png" width="500">
 </p>
 
+## Font information
+
+If you are as meticulous as we are and would like to use the same fonts and colours for other purposes then you can download [Maven Pro Bold Fonts](https://fonts.google.com/specimen/Maven+Pro) via you web-browser and install them locally, or if you are running the script in a Linux environment you should be able to do this with the following commands:
+
+```bash
+mkdir -p ~/.fonts/
+cd ~/.fonts/
+wget 'https://raw.githubusercontent.com/google/fonts/master/ofl/mavenpro/static/MavenPro-Black.ttf'
+wget 'https://raw.githubusercontent.com/google/fonts/master/ofl/mavenpro/static/MavenPro-Bold.ttf'
+wget 'https://raw.githubusercontent.com/google/fonts/master/ofl/mavenpro/static/MavenPro-Medium.ttf'
+wget 'https://raw.githubusercontent.com/google/fonts/master/ofl/mavenpro/static/MavenPro-Regular.ttf'
+```
+
+The green colour in the logo is RGB: `36,176,100` or Hex:`#24B064`.
+
 ## Help
 
 If you have any questions or issues please send us a message on [Slack](https://nf-co.re/join/slack).

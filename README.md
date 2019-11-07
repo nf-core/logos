@@ -33,7 +33,7 @@ wget 'https://raw.githubusercontent.com/google/fonts/master/ofl/mavenpro/static/
 wget 'https://raw.githubusercontent.com/google/fonts/master/ofl/mavenpro/static/MavenPro-Regular.ttf'
 ```
 
-The green in the logo is `RGB`: `36,176,100` or `Hex`:`#24B064`.
+The green colour in the logo is RGB: `36,176,100` or Hex:`#24B064`.
 
 ## Help
 

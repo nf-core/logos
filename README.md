@@ -1,4 +1,5 @@
-# ![nf-core/logos](nf-core-logos/nfcore-logos_logo.png)
+# ![nf-core/logos](nf-core-logos/nfcore-logo_logo_dark.png#gh-dark-mode-only)
+# ![nf-core/logos](nf-core-logos/nfcore-logo_logo_light.png#gh-light-mode-only)
 
 A repository for hosting files containing the official [`nf-core` logos and icons](nf-core-logos) in `ai`, `png` and `svg` formats, along with instructions on how to download an `nf-core` logo for your pipeline.
 
@@ -17,7 +18,8 @@ Also, you can append the link with URL flags: `?s` and `?w`. The former scales t
 Only one resize flag can be given at a time; `?w` takes precedence.
 
 <p align="center">
-<img src="nf-core-logos/nfcore-pipelinename_logo.png" width="500">
+<img src="nf-core-logos/nfcore-pipelinename_logo_dark.png#gh-dark-mode-only" width="500">
+<img src="nf-core-logos/nfcore-pipelinename_logo_light.png#gh-light-mode-only" width="500">
 </p>
 
 ## Font information

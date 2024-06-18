@@ -38,6 +38,15 @@ wget 'https://raw.githubusercontent.com/google/fonts/master/ofl/mavenpro/static/
 
 The green colour in the logo is RGB: `36,176,100` or Hex:`#24B064`.
 
+## Pipeline logo specifications
+
+This repository also includes pipeline logos that have been customised away from the default generated pipeline.
+
+The specifications of the PNG versions of the dark and light versions of each should be:
+
+- Height: 4cm
+- Resolution: 300 DPI
+
 ## Help
 
 If you have any questions or issues please send us a message on [Slack](https://nf-co.re/join/slack).

@@ -60,6 +60,8 @@ This repository also hosts various images used for non-standard logos and other 
 
 Raster resolution of these images should be 300dpi and saved in a 'colour safe' format.
 
+These are included in this repository to act as a backup but also help coordinate between the nf-core team for uploading between the different shop fronts.
+
 ## Help
 
 If you have any questions or issues please send us a message on [Slack](https://nf-co.re/join/slack).

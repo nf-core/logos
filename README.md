@@ -44,6 +44,14 @@ Raster resolution of these images should be 300dpi and saved in a 'colour safe' 
 
 These are included in this repository to act as a backup but also help coordinate between the nf-core team for uploading between the different shop fronts.
 
+When uploading to the respective spreadshirt store fronts, make sure the default nf-core logo remains at the top of the shop homepage.
+
+To do this:
+
+1. Left sidebar: Sales channels (Verkäufskanale) > nf-core
+2. Left sidebar (Einstellung): Pages (Seiten) > Product list (Produktliste)
+3. Left sidebar: Sort designs (Designs sortieren) > Select anything before 'nf-core logo - dark background) > Move to 'Unten' > Press saave (top bar)
+
 ## Help
 
 If you have any questions or issues please send us a message on [Slack](https://nf-co.re/join/slack).

@@ -4,31 +4,13 @@ A repository for hosting files containing the official [`nf-core` logos, icons, 
 
 ## Download a pipeline logo
 
-From `nf-core/tools v1.7` the pipeline logo in `.png` format will be automatically downloaded and added to the appropriate directories when you run the [`nf-core create`](https://github.com/nf-core/tools#creating-a-new-workflow) command!
+From `nf-core/tools v1.7` the pipeline logo in `.png` format will be automatically downloaded and added to the appropriate directories when you run the [`nf-core pipelines create`](https://nf-co.re/docs/tutorials/adding_a_pipeline/creating_a_pipeline) command!
 
 You can also manually run the command yourself, e.g.:
 
 ```bash
 nf-core pipelines create-logo <pipeline name> --format <png/svg> --theme <light/dark> --width <pixels>
 ```
-
-However, if you would like to download a `png` logo for any other reason you can simply use a command like the one below:
-
-```bash
-curl https://nf-co.re/logo/pipelinename?theme=light --output nfcore-pipelinename_logo_light.png
-```
-
-You can create a logo optimized for dark backgrounds by changing the `?theme` flag in the URL above from `light` to `dark`.
-
-Also, you can append the link with URL flags: `?s` and `?w`.
-The former scales the image to be 400px wide, which is a nice size for including the logo in the pipeline completion email. The latter lets you specify any width you want, e.g. `?w=800` will give you a logo that's `800px` wide. The height of the image is automatically adjusted relative to the width.
-
-Only one resize flag can be given at a time; `?w` takes precedence.
-
-<p align="center">
-<img src="nf-core-logos/nfcore-pipelinename_logo_dark.png#gh-dark-mode-only" width="500">
-<img src="nf-core-logos/nfcore-pipelinename_logo_light.png#gh-light-mode-only" width="500">
-</p>
 
 ## Font information
 

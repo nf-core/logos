@@ -62,8 +62,8 @@ The follow the official hexagon 'Sticker Standards' as defined [here](https://st
 To use the template:
 
 - Make sure your pipeline's icon/brandmark is in SVG (vector) format before starting!
-- Open the `nf-core-TEMPLATE-logo-hex-dark.svg` file in Inkscape (or similar vector graphics editor, but Inkscape is recommended)
-- Save as the opened template with a new name: `nfcore-<pipelinename>-logo-hex-dark.svg`, e.g. `nfcore-sarek-logo-hex-dark.svg`
+- Copy the `nf-core-TEMPLATE-logo-hex-dark.svg` with to a new name: `nfcore-<pipelinename>-logo-hex-dark.svg`, e.g. `nfcore-sarek-logo-hex-dark.svg`
+- Open the new file in a vector graphics editor (e.g. Inkscape)
 - Turn on guides (View -> Guides, or <kbd>ctrl</kbd> + <kbd>|</kbd>)
 - Update the wordmark
   - Replace the 'logohere' text to the pipeline name.
@@ -74,8 +74,9 @@ To use the template:
   - Once text updated, and size and location adjusted, delete the red box
 - Insert the pipeline icon/brandmark
   - Copy the pipeline icon/brandmark SVG file into the hexagon template
-  - Rescale the icon so the majority of the icon fits within the the upper red circle or guides, and/or the center point of the icon is in the center point of the circle/guides
-  - Note that the entire icon does NOT need to fit entirely within the red circle; 'sticky out bits' may fall outside the circle. The circle acts as a rough size example
+  - Rescale the icon so the majority of the icon fits within one of either the width or height limits of the red circle or guides, and/or the center point of the icon is in the center point of the circle/guides
+  - It is OK to adjust away from these guidelines to make the icon looks 'optically' centred
+  - Note that the entire icon does NOT need to fit entirely within the red circle; 'sticky out bits' may fall outside the circle or guides (or, e.g., be wider if the height is no bigger than the guides). The circle acts as a rough size example
   - Horizontal center align the icon relative to the background hexagon object
   - Vertical center align the icon relative to red square
   - Once icon is in place, delete the red circle

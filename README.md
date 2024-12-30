@@ -56,13 +56,15 @@ To do this:
 
 This repository contains a template and 'official' nf-core pipeline hexagon sticker designs.
 
+![A collection of hexagon shape symbols with a variety of nf-core pipeline logos in each one](hexagon-stickers/nf-core-hexagon-sticker-preview.png)
+
 The official hex stickers are made for pipelines that have a pipeline specific icon or brandmark in addition to the 'official' nf-core logo (i.e., wordmark plus nf-core apple).
 The follow the official hexagon 'Sticker Standards' as defined [here](https://sticker.how/).
 
 To use the template:
 
 - Make sure your pipeline's icon/brandmark is in SVG (vector) format before starting!
-- Copy the `nf-core-TEMPLATE-logo-hex-dark.svg` with to a new name: `nfcore-<pipelinename>-logo-hex-dark.svg`, e.g. `nfcore-sarek-logo-hex-dark.svg`
+- Copy the `nf-core-TEMPLATE-logo-hex-dark.svg` in a folder withe the pipeline name, and rename the file to: `nfcore-<pipelinename>-logo-hex-dark.svg`, e.g. `sarek/nfcore-sarek-logo-hex-dark.svg`
 - Open the new file in a vector graphics editor (e.g. Inkscape)
 - Turn on guides (View -> Guides, or <kbd>ctrl</kbd> + <kbd>|</kbd>)
 - Update the wordmark
@@ -82,6 +84,9 @@ To use the template:
   - Once icon is in place, delete the red circle
 - Verify the size of the entire hexagon is 5.08cm height x 4.39cm width (e.g. in Inkscape with both: Object > Transform > Scale ; Document Properties > Display > Front Page)
 - Export the image as a PNG with a resolution of 300 DPI, with the same name replacing the suffix with `.png`.
+- Copy your new SVG into the next free space (deleting the red placeholder) in the `nf-core-hexagon-sticker-preview.svg` file,
+  - Export at 300 DPI as a PNG with the same name replacing the suffix with `.png`.
+  - Keep the file size as horizontal A4!
 
 For printing, to ensure that the hexagon sticker will be be compatible with other hexagon stickers, the following specifications should be followed (as per the 'official hexagon' '[Sticker Standards](https://sticker.how/)'):
 

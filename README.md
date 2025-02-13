@@ -50,7 +50,7 @@ To do this:
 
 1. Left sidebar: Sales channels (Verkäufskanale) > nf-core
 2. Left sidebar (Einstellung): Pages (Seiten) > Product list (Produktliste)
-3. Left sidebar: Sort designs (Designs sortieren) > Select anything before 'nf-core logo - dark background) > Move to 'Unten' > Press saave (top bar)
+3. Left sidebar: Sort designs (Designs sortieren) > Select anything before 'nf-core logo - dark background') > Move to 'Unten' > Press save (top bar)
 
 ## Hexagon Stickers
 
@@ -59,12 +59,12 @@ This repository contains a template and 'official' nf-core pipeline hexagon stic
 ![A collection of hexagon shape symbols with a variety of nf-core pipeline logos in each one](hexagon-stickers/nf-core-hexagon-sticker-preview.png)
 
 The official hex stickers are made for pipelines that have a pipeline specific icon or brandmark in addition to the 'official' nf-core logo (i.e., wordmark plus nf-core apple).
-The follow the official hexagon 'Sticker Standards' as defined [here](https://sticker.how/).
+They follow the official hexagon 'Sticker Standards' as defined [here](https://sticker.how/).
 
 To use the template:
 
 - Make sure your pipeline's icon/brandmark is in SVG (vector) format before starting!
-- Copy the `nf-core-TEMPLATE-logo-hex-dark.svg` in a folder withe the pipeline name, and rename the file to: `nfcore-<pipelinename>-logo-hex-dark.svg`, e.g. `sarek/nfcore-sarek-logo-hex-dark.svg`
+- Copy the `nf-core-TEMPLATE-logo-hex-dark.svg` in a folder with the pipeline name, and rename the file to: `nfcore-<pipelinename>-logo-hex-dark.svg`, e.g. `sarek/nfcore-sarek-logo-hex-dark.svg`
 - Open the new file in a vector graphics editor (e.g. Inkscape)
 - Turn on guides (View -> Guides, or <kbd>ctrl</kbd> + <kbd>|</kbd>)
 - Update the wordmark
@@ -77,18 +77,18 @@ To use the template:
 - Insert the pipeline icon/brandmark
   - Copy the pipeline icon/brandmark SVG file into the hexagon template
   - Rescale the icon so the majority of the icon fits within one of either the width or height limits of the red circle or guides, and/or the center point of the icon is in the center point of the circle/guides
-  - It is OK to adjust away from these guidelines to make the icon looks 'optically' centred
+  - It is OK to adjust away from these guidelines to make the icon looks 'optically' centered
   - Note that the entire icon does NOT need to fit entirely within the red circle; 'sticky out bits' may fall outside the circle or guides (or, e.g., be wider if the height is no bigger than the guides). The circle acts as a rough size example
   - Horizontal center align the icon relative to the background hexagon object
   - Vertical center align the icon relative to red square
   - Once icon is in place, delete the red circle
-- Verify the size of the entire hexagon is 5.08cm height x 4.39cm width (e.g. in Inkscape with both: Object > Transform > Scale ; Document Properties > Display > Front Page)
+- Verify that the size of the entire hexagon is 5.08cm height x 4.39cm width (e.g. in Inkscape with both: Object > Transform > Scale ; Document Properties > Display > Front Page)
 - Export the image as a PNG with a resolution of 300 DPI, with the same name replacing the suffix with `.png`.
 - Copy your new SVG into the next free space (deleting the red placeholder) in the `nf-core-hexagon-sticker-preview.svg` file,
   - Export at 300 DPI as a PNG with the same name replacing the suffix with `.png`.
   - Keep the file size as horizontal A4!
 
-For printing, to ensure that the hexagon sticker will be be compatible with other hexagon stickers, the following specifications should be followed (as per the 'official hexagon' '[Sticker Standards](https://sticker.how/)'):
+For printing, to ensure that the hexagon sticker will be compatible with other hexagon stickers, the following specifications should be followed (as per the 'official hexagon' '[Sticker Standards](https://sticker.how/)'):
 
 - Height: 5.08 cm / 2in
 - Width: 4.39 cm / 1.73in

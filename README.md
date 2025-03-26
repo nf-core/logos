@@ -56,7 +56,7 @@ To do this:
 
 This repository contains a template and 'official' nf-core pipeline hexagon sticker designs.
 
-![A collection of hexagon shape symbols with a variety of nf-core pipeline logos in each one](hexagon-stickers/nf-core-hexagon-sticker-preview.png)
+![A collection of hexagon shape symbols with a variety of nf-core pipeline logos in each one](hexagon-stickers/pipelines/nf-core-hexagon-sticker-preview.png)
 
 The official hex stickers are made for pipelines that have a pipeline specific icon or brandmark in addition to the 'official' nf-core logo (i.e., wordmark plus nf-core apple).
 They follow the official hexagon 'Sticker Standards' as defined [here](https://sticker.how/).

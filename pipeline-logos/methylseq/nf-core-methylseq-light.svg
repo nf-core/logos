@@ -51,8 +51,8 @@
     <inkscape:grid
        id="grid14"
        units="mm"
-       originx="0"
-       originy="0"
+       originx="-5.5569394e-08"
+       originy="5.2499999e-08"
        spacingx="0.99999998"
        spacingy="1"
        empcolor="#0099e5"
@@ -62,6 +62,14 @@
        empspacing="5"
        enabled="true"
        visible="true" />
+    <inkscape:page
+       x="0"
+       y="0"
+       width="139.10001"
+       height="40"
+       id="page2"
+       margin="0"
+       bleed="0" />
   </sodipodi:namedview>
   <defs
      id="defs1">

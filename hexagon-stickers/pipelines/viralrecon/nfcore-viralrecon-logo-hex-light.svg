@@ -28,14 +28,14 @@
      inkscape:document-units="mm"
      showguides="true"
      inkscape:zoom="3.2985891"
-     inkscape:cx="35.77287"
-     inkscape:cy="81.701598"
+     inkscape:cx="12.126397"
+     inkscape:cy="82.004758"
      inkscape:current-layer="layer1"
      showgrid="true"
      inkscape:window-width="1920"
      inkscape:window-height="1018"
-     inkscape:window-x="3833"
-     inkscape:window-y="624"
+     inkscape:window-x="-6"
+     inkscape:window-y="-6"
      inkscape:window-maximized="1">
     <sodipodi:guide
        position="12.133177,29.026781"
@@ -147,7 +147,7 @@
       </g>
       <g
          id="g469-8-7-2-3"
-         transform="matrix(0.26458333,0,0,0.26458333,-6126.7026,-244.88051)"
+         transform="matrix(0.26458333,0,0,0.26458333,-6110.178,-244.88051)"
          inkscape:label="nf-core/viralrecon">
         <g
            id="g24-3-2-66-9"
